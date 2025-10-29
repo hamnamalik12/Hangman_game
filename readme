@@ -1,0 +1,32 @@
+# Hangman Game
+## Description
+    This is an updated version of classic hangman game. I have developed this game in Python using the basic concepts and file handling techniques. 
+
+### How to run this game?
+    To run this game follow the following steps:
+        1. Download or clone this game folder/repository
+        2. open your terminal (anaconda or vscode)
+        3. traverse to the downloaded game path
+        4. run this command "python main.py"
+
+## Rules of the game:
+    To play the game keep these rules in your mind:
+        1. You have to choose the category from ten given categories or just type random it will choose for you
+            {Animals, Countries, Cities, Names, Fruits, Food, Entertainment, Vegetables, Science, games}
+        2. You will be having 6 tries to guess the word
+        3. You can guess single letter at a time
+        4. You can guess a complete word if its wrong it will only deduct 1 try
+        5. You can guess multiple letters at once if some are right and some are wrong, right ones will be shown and for wrong one 1 try will be deducted.
+
+## Scoring Scheme:
+    It tracks all the games you have played and give you an overall score as well.
+        1. Total games played
+        2. Total games won
+        3. Total games lost 
+        4. Average wining score
+
+## Structure of the game: 
+![alt text](image.png)
+
+## Developed By:
+    Hamna Malik
