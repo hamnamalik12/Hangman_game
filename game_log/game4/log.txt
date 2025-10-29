@@ -1,0 +1,29 @@
+Game 4 Log
+Category: Countries
+Word: china
+Wrong guesses: 5
+Result: Win
+Score: 25
+
+Guesses:
+1. a -> Correct
+2. bw -> FullWrong
+3. irana -> FullWrong
+4. e -> Wrong
+5. r -> Wrong
+6. q -> Wrong
+7. i -> Correct
+8. c -> Correct
+9. china -> FullCorrect
+
+Date & Time: 2025-10-29 10:36:01.845958
+
+Overall Stats:
+{
+  "games_played": 4,
+  "wins": 1,
+  "losses": 2,
+  "total_score": 25,
+  "win_rate": 25.0,
+  "average_score_per_game": 6.25
+}

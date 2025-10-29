@@ -25,19 +25,37 @@ def main():
         if guess == "quit":
             print("Exiting game...")
             break
-        if len(guess) != 1 or not guess.isalpha():
-            print("Invalid input! Enter a single letter.")
+        if not guess.isalpha():
+            print("Invalid input! Only letters are allowed.")
+            continue
+        if len(guess) == 0:
+            print("Please enter a letter or word.")
             continue
 
         result = process_guess(state, guess)
         guesses.append((guess, result))
 
         if result == "Correct":
-            print(f" Correct! '{guess}' is in the word.")
+            print(f"Correct! '{guess}' is in the word.")
         elif result == "Wrong":
-            print(f" Wrong! '{guess}' is not in the word.")
+            print(f"Wrong! '{guess}' is not in the word.")
+        elif result == "PartialMixed":
+            print(f"Mixed guess! Some letters in '{guess}' were correct.")
+        elif result == "PartialWrong":
+            print(f"All letters in '{guess}' were wrong. -1 attempt only.")
+        elif result == "FullCorrect":
+            print(f"Amazing! You guessed the full word '{state['word'].upper()}' correctly!")
+            score = calculate_score(state['word'], state['wrong'])
+            print(f"You win! Score: {score}")
+            stats["wins"] += 1
+            stats["total_score"] += score
+            result = "Win"
+            break
+        elif result == "FullWrong":
+            print(f" '{guess}' is not the correct word! -1 attempt.")
         else:
             print(f" You already guessed '{guess}'.")
+
 
         if check_win(state):
             score = calculate_score(state['word'], state['wrong'])
