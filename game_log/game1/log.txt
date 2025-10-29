@@ -1,0 +1,28 @@
+Game 1 Log
+Category: Countries
+Word: hungary
+Wrong guesses: 6
+Result: Loss
+Score: 0
+
+Guesses:
+1. a -> Correct
+2. i -> Wrong
+3. e -> Wrong
+4. o -> Wrong
+5. c -> Wrong
+6. m -> Wrong
+7. n -> Correct
+8. d -> Wrong
+
+Date & Time: 2025-10-29 10:09:24.602612
+
+Overall Stats:
+{
+  "games_played": 1,
+  "wins": 0,
+  "losses": 1,
+  "total_score": 0,
+  "win_rate": 0.0,
+  "average_score_per_game": 0.0
+}

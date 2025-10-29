@@ -1,0 +1,29 @@
+Game 2 Log
+Category: Countries
+Word: bahrain
+Wrong guesses: 6
+Result: Loss
+Score: 0
+
+Guesses:
+1. a -> Correct
+2. c -> Wrong
+3. e -> Wrong
+4. i -> Correct
+5. o -> Wrong
+6. u -> Wrong
+7. m -> Wrong
+8. n -> Correct
+9. t -> Wrong
+
+Date & Time: 2025-10-29 10:17:34.005801
+
+Overall Stats:
+{
+  "games_played": 2,
+  "wins": 0,
+  "losses": 2,
+  "total_score": 0,
+  "win_rate": 0.0,
+  "average_score_per_game": 0.0
+}
